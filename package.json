@@ -1,6 +1,6 @@
 {
-  "name": "get-pixels",
-  "version": "3.3.3",
+  "name": "@clicks/get-pixels",
+  "version": "4.0.0",
   "description": "Reads the pixels of an image as an ndarray",
   "main": "node-pixels.js",
   "directories": {
@@ -16,7 +16,6 @@
     "omggif": "^1.0.5",
     "parse-data-uri": "^0.2.0",
     "pngjs": "^3.3.3",
-    "request": "^2.44.0",
     "through": "^2.3.4"
   },
   "devDependencies": {
@@ -32,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/scijs/get-pixels.git"
+    "url": "git://github.com/CLicksMinutePer/get-pixels.git"
   },
   "keywords": [
     "ndarray",
@@ -55,7 +54,12 @@
     "browserify"
   ],
   "browser": "dom-pixels.js",
-  "author": "Mikola Lysenko",
+  "author": "Clicks <admin@clicks.codes> (https://clicks.codes)",
+  "contributors": [
+    {
+      "name": "Mikola Lysenko"
+    }
+  ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "380bbda330666e4a4066c48ef5a42770d13bcd5c"
